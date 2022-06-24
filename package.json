@@ -1,0 +1,32 @@
+{
+  "name": "ondc-search-analytics",
+  "version": "1.0.0",
+  "description": "Analytics of the ONDC network search requests. Using ondc-node package. Integrating ONDC protocol with ondc-node Middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukrocks007/ondc-search-analytics.git"
+  },
+  "keywords": [
+    "ONDC",
+    "ONDC",
+    "Node",
+    "ONDC",
+    "Middleware",
+    "ONDC",
+    "Protocol",
+    "Search",
+    "Analytics",
+    "ONDC",
+    "Search"
+  ],
+  "author": "Utkarsh Mehta <utkarsh.mehta2612@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukrocks007/ondc-search-analytics/issues"
+  },
+  "homepage": "https://github.com/ukrocks007/ondc-search-analytics#readme"
+}
