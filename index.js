@@ -9,6 +9,8 @@ app.use(express.json());
 
 app.use(ondc.Middleware({ search: searchAnalyticsHandler }));
 
+app.use("/", express.static("app/build"))
+
 app.get("/analytics", async (req, res) => {
     try {
         res.status(200).json({
