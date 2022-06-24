@@ -4,7 +4,7 @@
   "description": "Analytics of the ONDC network search requests. Using ondc-node package. Integrating ONDC protocol with ondc-node Middleware.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --inspect=0.0.0.0 index.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/ukrocks007/ondc-search-analytics/issues"
   },
-  "homepage": "https://github.com/ukrocks007/ondc-search-analytics#readme"
+  "homepage": "https://github.com/ukrocks007/ondc-search-analytics#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ondc-node": "^1.1.0",
+    "redis": "^4.1.0"
+  }
 }
