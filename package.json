@@ -4,7 +4,8 @@
   "description": "Analytics of the ONDC network search requests. Using ondc-node package. Integrating ONDC protocol with ondc-node Middleware.",
   "main": "index.js",
   "scripts": {
-    "start": "node --inspect=0.0.0.0 index.js"
+    "start": "node --inspect=0.0.0.0 index.js",
+    "prestart": "cd ./app && npm run build"
   },
   "repository": {
     "type": "git",
@@ -12,15 +13,10 @@
   },
   "keywords": [
     "ONDC",
-    "ONDC",
-    "Node",
-    "ONDC",
-    "Middleware",
-    "ONDC",
-    "Protocol",
-    "Search",
-    "Analytics",
-    "ONDC",
+    "ONDC-Node",
+    "ONDC-Middleware",
+    "ONDC-Protocol",
+    "Search-Analytics",
     "Search"
   ],
   "author": "Utkarsh Mehta <utkarsh.mehta2612@gmail.com>",
